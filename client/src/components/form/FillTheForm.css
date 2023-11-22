@@ -1,0 +1,47 @@
+.form-fill {
+    min-height: 100vh;
+}
+
+.dropdown-bar {
+    height: 6rem;
+}
+
+.dropdown-setting {
+    padding-inline: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.dropdown-menu-setting-one {
+    width: 20.5rem !important;
+}
+
+.dropdown-menu-setting-two {
+    width: 22rem !important;
+}
+
+#dropdownDelayButton {
+    margin-right: 2rem !important;
+}
+
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: black !important;
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+    background-color: #fff !important;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .dropdown-menu-setting-one {
+        width: 20.5rem !important;
+    }
+
+    .dropdown-menu-setting-two {
+        width: 22rem !important;
+    }
+
+    #dropdownDelayButton {
+        margin-right: 2rem !important;
+    }
+}

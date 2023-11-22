@@ -1,0 +1,20 @@
+.small-screen {
+    display: none;
+}
+
+@media only screen and (max-width: 786px) {
+    .small-screen {
+        display: block;
+    }
+
+    .wide-screen {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 641px) {
+    .sign-btns {
+        display: none;
+    }
+}
